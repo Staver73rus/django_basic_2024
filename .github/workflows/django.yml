@@ -27,7 +27,4 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        pwd
-        ls -la
-        cd django_basic_2024
-        ls
+        python django_basic_2024/manage.py test
